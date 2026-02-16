@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Harry Atkins - Portfolio",
+  title: "Parv Modi - Portfolio",
   description: "Creative Developer & Interface Designer",
 };
 
