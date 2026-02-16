@@ -9,6 +9,8 @@ const technologies = [
     "JAVASCRIPT",
     "REDUX TOOLKIT",
     "MYSQL",
+    "POSTGRESQL",
+    "JAVA"
 ]
 
 export function TechStack() {
