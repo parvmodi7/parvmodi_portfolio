@@ -8,7 +8,7 @@ export function About() {
                 <div className="grid gap-10 md:gap-12 lg:grid-cols-2">
                     {/* Left: Title & Visual */}
                     <div className="flex flex-col justify-between">
-                        <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-8">ABOUT,</h2>
+                        <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-8">ABOUT</h2>
                         <Settings className="w-16 h-16 animate-spin-slow text-muted-foreground hidden lg:block" style={{ animationDuration: "10s" }} />
                     </div>
 

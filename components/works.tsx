@@ -42,7 +42,7 @@ export function Works() {
         <section id="work" className="border-b py-12 md:py-24">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="flex items-center justify-between mb-12">
-                    <h2 className="text-4xl md:text-6xl font-bold tracking-tighter">WORKS,</h2>
+                    <h2 className="text-4xl md:text-6xl font-bold tracking-tighter">WORKS</h2>
                     <ArrowRight className="w-8 h-8 md:w-12 md:h-12 text-muted-foreground" />
                 </div>
 

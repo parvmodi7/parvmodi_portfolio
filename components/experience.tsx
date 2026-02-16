@@ -14,7 +14,7 @@ export function Experience() {
     return (
         <section id="experience" className="border-b py-12 md:py-24">
             <div className="container mx-auto px-4 md:px-6">
-                <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-12">EXPERIENCE,</h2>
+                <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-12">EXPERIENCE</h2>
 
                 <div className="divide-y border-t border-b">
                     {experiences.map((item) => (
