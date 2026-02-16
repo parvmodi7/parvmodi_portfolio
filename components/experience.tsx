@@ -3,22 +3,10 @@ import { Badge } from "@/components/ui/badge"
 
 const experiences = [
     {
-        role: "SENIOR ENGINEER",
-        company: "Technolabs of World",
-        period: "2023 - PRESENT",
-        description: "Leading the frontend team in re-architecting the core product using React and Next.js. Improved performance by 40% and established a comprehensive design system.",
-    },
-    {
-        role: "CREATIVE DEV",
-        company: "Studio Alpha",
-        period: "2021 - 2023",
-        description: "Collaborated with designers to build award-winning marketing sites. Utilized WebGL and GSAP for high-end animations and interactive storytelling experiences.",
-    },
-    {
-        role: "WEB DEVELOPER",
-        company: "Freelance",
-        period: "2019 - 2021",
-        description: "Delivered custom WordPress themes and Shopify stores for over 30 clients. Managed full project lifecycles from concept to deployment.",
+        role: "MERN STACK DEVELOPER",
+        company: "Eulogik",
+        period: "Oct 2025 - Feb 2026 (Ongoing)",
+        description: "Develop and maintain full-stack web applications using the MERN stack, design and integrate RESTful APIs, optimize performance through refactoring and code reviews, and collaborate in agile sprints with cross-functional teams.",
     },
 ]
 

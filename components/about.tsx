@@ -15,23 +15,23 @@ export function About() {
                     {/* Right: Content */}
                     <div className="flex flex-col gap-6">
                         <h3 className="text-2xl md:text-3xl font-medium leading-tight">
-                            I'm a multidisciplinary developer focused on crafting <span className="line-through decoration-destructive decoration-2 text-muted-foreground">boring</span> immersive web experiences. I bridge the gap between stark brutalism and functional interaction.
+                            I'm Parv Modi, a MERN Stack Developer with 1.5+ years of professional experience building scalable, production-ready web applications using React.js, Node.js, Express.js, and MongoDB.
                         </h3>
                         <p className="text-lg text-muted-foreground">
-                            With a background in traditional design and a passion for code, I build digital products that are not only functional but also visually compelling. I believe in the power of minimalism and the importance of user experience.
+                            I work across the full software development lifecycle, from requirements analysis to deployment and maintenance, with a strong focus on clean architecture, API design, performance optimization, and maintainable code.
                         </p>
 
                         <div className="grid grid-cols-2 gap-4 mt-4">
                             <div className="space-y-2">
                                 <h4 className="text-sm font-mono text-green-500 uppercase tracking-wider">[ Methodology ]</h4>
                                 <p className="text-sm text-muted-foreground">
-                                    Believing in code as a medium for artistic expression. Every pixel is calculated, every interaction is intentional. Oversimplify mechanisms not aesthetics.
+                                    Build with practical engineering standards: reusable components, RESTful APIs, MVC patterns, code reviews, and agile collaboration to deliver reliable and scalable products.
                                 </p>
                             </div>
                             <div className="space-y-2">
                                 <h4 className="text-sm font-mono text-green-500 uppercase tracking-wider">[ Focus ]</h4>
                                 <p className="text-sm text-muted-foreground">
-                                    Currently obsessed with WebGL, micro-interactions, and typography-driven layouts. Pushing the browser to its absolute limits.
+                                    Currently focused on full-stack MERN development, TypeScript-first frontend architecture, secure authentication flows, and real-time features with WebSockets/WebRTC.
                                 </p>
                             </div>
                         </div>

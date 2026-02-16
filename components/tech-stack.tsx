@@ -1,13 +1,14 @@
 
 const technologies = [
     "REACT",
-    "NEXT.JS",
+    "NODE.JS",
+    "EXPRESS.JS",
+    "MONGODB",
     "TYPESCRIPT",
     "TAILWIND",
-    "WEBGL",
-    "THREE.JS",
-    "NODE.JS",
-    "FIGMA",
+    "JAVASCRIPT",
+    "REDUX TOOLKIT",
+    "MYSQL",
 ]
 
 export function TechStack() {
