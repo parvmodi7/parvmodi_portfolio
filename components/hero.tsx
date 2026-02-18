@@ -9,8 +9,7 @@ export function Hero() {
             <div className="container px-4 md:px-6 mx-auto">
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-0 items-center">
 
-                    {/* Content Section */}
-                    <div className="flex flex-col space-y-8 lg:order-1 order-2 lg:pr-16 lg:border-r lg:border-white/10">
+                    <div className="flex flex-col space-y-8 lg:order-1 order-2 lg:pr-16 lg:border-r lg:border-black/10 dark:lg:border-white/10">
                         <div className="space-y-4">
                             <div className="flex items-center gap-2">
                                 {/* <span className="relative flex h-3 w-3">
@@ -27,30 +26,36 @@ export function Hero() {
                             </h1>
 
                             <p className="text-xl text-muted-foreground max-w-[600px] leading-relaxed">
-                                Full-stack developer specializing in building exceptional digital experiences with the MERN stack.
+                                Just a potato writing code.
                             </p>
                         </div>
 
                         <div className="flex flex-wrap gap-4">
-                            <button className="inline-flex items-center justify-center h-12 px-8 rounded-full bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
-                                View Projects
-                                <ArrowRight className="ml-2 h-4 w-4" />
+                            <button className="relative inline-flex items-center justify-center h-12 px-8 rounded-full bg-primary text-primary-foreground font-medium overflow-hidden group transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
+                                <span className="absolute left-1/2 bottom-0 w-[200%] aspect-square -translate-x-1/2 translate-y-full rounded-full bg-background transition-transform duration-500 ease-in-out group-hover:translate-y-[10%]"></span>
+                                <span className="relative z-10 flex items-center group-hover:text-foreground transition-colors duration-500">
+                                    View Projects
+                                    <ArrowRight className="ml-2 h-4 w-4" />
+                                </span>
                             </button>
-                            <button className="inline-flex items-center justify-center h-12 px-8 rounded-full border border-input bg-background hover:bg-accent hover:text-accent-foreground font-medium transition-colors">
-                                Contact Me
+                            <button className="relative inline-flex items-center justify-center h-12 px-8 rounded-full border border-input bg-background font-medium overflow-hidden group transition-all duration-300 hover:scale-105 hover:border-primary">
+                                <span className="absolute left-1/2 bottom-0 w-[200%] aspect-square -translate-x-1/2 translate-y-full rounded-full bg-primary transition-transform duration-700 ease-in-out group-hover:translate-y-[10%]"></span>
+                                <span className="relative z-10 group-hover:text-primary-foreground transition-colors duration-500">
+                                    Contact Me
+                                </span>
                             </button>
                         </div>
 
                         <div className="flex items-center gap-6 text-muted-foreground">
-                            <a href="#" className="hover:text-foreground transition-colors">
+                            <a href="https://github.com/parvmodi7" target="_blank" className="hover:text-foreground transition-colors">
                                 <Github className="h-6 w-6" />
                                 <span className="sr-only">GitHub</span>
                             </a>
-                            <a href="#" className="hover:text-foreground transition-colors">
+                            <a href="https://www.linkedin.com/in/parv-modi-b7b8422a5/" target="_blank" className="hover:text-foreground transition-colors">
                                 <Linkedin className="h-6 w-6" />
                                 <span className="sr-only">LinkedIn</span>
                             </a>
-                            <a href="#" className="hover:text-foreground transition-colors">
+                            <a href="parvmodi11@gmail.com" target="_blank" className="hover:text-foreground transition-colors">
                                 <Mail className="h-6 w-6" />
                                 <span className="sr-only">Email</span>
                             </a>
@@ -69,7 +74,7 @@ export function Hero() {
                                 className="w-full h-full object-cover  shadow-2xl border border-border/50 bg-muted"
                             />
                             {/* Floating Card Element (Optional decoration) */}
-                            <div className="absolute -bottom-6 -left-6 bg-card border text-card-foreground p-4 rounded-xl shadow-lg hidden md:block animate-in fade-in slide-in-from-bottom-10 duration-1000">
+                            <div className="absolute -bottom-1 -left-10  bg-card border text-card-foreground p-4 rounded-xl shadow-lg hidden md:block animate-in fade-in slide-in-from-bottom-10 duration-1000">
                                 <p className="font-bold text-lg">1+ Years</p>
                                 <p className="text-sm text-muted-foreground">Experience</p>
                             </div>
